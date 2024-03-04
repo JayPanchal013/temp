@@ -1,0 +1,14 @@
+description: Ultralytics YOLOv8m-seg model trained on /content/drive/MyDrive/datasets/data.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2024-01-30T22:10:09.097218'
+version: 8.1.4
+stride: 32
+task: segment
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: crease
+  1: whiteDefect

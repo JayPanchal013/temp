@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['crease', 'whiteDefect']
+
+roboflow:
+  workspace: thejagstudio-eymar
+  project: textilenewdata
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/thejagstudio-eymar/textilenewdata/dataset/2
